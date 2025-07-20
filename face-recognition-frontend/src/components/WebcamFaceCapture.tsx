@@ -161,6 +161,7 @@ export default function WebcamFaceCapture() {
             }
         } finally {
             setIsProcessing(false);
+            console.log({ isProcessing });
         }
     };
 
